@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "timer"; 
+  src: url('Timer.ttf'); 
+}
+
+body {
+    margin: 0;
+    background-color: #064E3B;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Happy Monkey", system-ui;
+    color: #A7F3D0;
+
+}
+
+.card {
+    width: 150px;
+    height: 100px;
+    margin-top: -45px;
+    background-color: #080001;
+    color: #F94F6D;
+    border-radius: 5px;
+    
+}
+
+.text-card {
+    text-align: center;
+    padding-top: 16px;
+    font-size: 60px;
+    font-family: "timer"; 
+}
+
+#title {
+    padding-left: 42px;
+}
+
+#second-title {
+    padding-left: 42px;
+}
+
+.btn {
+    margin: 20px 5px 0;
+    border: 2px solid #6EE7B7;
+    border-radius: 5px;
+    width: 38px;
+    height: 40px;
+    background-color: #064E3B;
+    color: #6EE7B7;
+    font-family: "timer"; 
+    
+}
+
+.btn-new {
+    margin: 50px -140px;
+    width: 150px;
+    height: 40px;
+    border: 2px solid #F59E0B;
+    border-radius: 5px;
+    color: #F59E0B;
+    text-shadow: 0 0;
+    background-color: #064E3B;
+    
+}
